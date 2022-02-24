@@ -1,0 +1,28 @@
+
+  .column-hm {
+    float:left;
+    width: 70%;
+    padding: 0.5% 7% 0.5% 2%;
+  }
+
+  .column-hm-right {
+      float:right;
+      width: 30%;
+  }
+
+@media screen and (max-width: 750px) {
+    .column-hm {
+    flex: 100%;
+    width: 100%;
+    margin-top: -15%;
+}
+}
+@media screen and (max-width: 750px) {
+    .column-hm-right {
+    width: 70vw;
+    padding: 2% 7% 0.5% 7%;
+    float: left;
+    position: relative;
+    left: 12%;
+}
+}
